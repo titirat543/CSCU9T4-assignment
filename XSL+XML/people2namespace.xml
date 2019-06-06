@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="people2namespace.xsl"?>
+<people xmlns:p="https://first.com"
+		xmlns:s="https://second.com"
+		xmlns:t="https://third.com"
+		xmlns:f="https://fourth.com"
+		xmlns:fif="https://fifth.com">
+	
+    <p:person>
+		<s:first_name>John</s:first_name>
+		<fif:surname>Smith</fif:surname>
+		<age>29</age>
+		<town>Stirling</town>
+	</p:person>
+	
+    <p:person>
+		<s:first_name>Sarah</s:first_name>
+		<fif:surname>Brown</fif:surname>
+		<age>33</age>
+		<town>Falkirk</town>
+	</p:person>
+	
+	<p:person>
+		<f:name>Eric Pickles</f:name>
+		<date_of_birth>01/02/78</date_of_birth>
+		<passport_number>45687321</passport_number>
+		<shoe_size>10.5</shoe_size>
+		<t:hamster>
+			<name>Freddie the Hamster</name>
+		</t:hamster>
+	</p:person>
+	
+	<p:person >
+		<f:name>Margot Black</f:name>
+		<date_of_birth>04/11/89</date_of_birth>
+		<shoe_size>6</shoe_size>
+	</p:person>
+</people>

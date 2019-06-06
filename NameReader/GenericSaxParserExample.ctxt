@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=GenericSaxParserExample
+comment1.params=a
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ startDocument()
+comment3.params=uri\ localName\ qName\ attributes
+comment3.target=void\ startElement(java.lang.String,\ java.lang.String,\ java.lang.String,\ org.xml.sax.Attributes)
+comment4.params=ch\ start\ length
+comment4.target=void\ characters(char[],\ int,\ int)
+comment5.params=uri\ localName\ qName
+comment5.target=void\ endElement(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment6.params=
+comment6.target=void\ endDocument()
+numComments=7
